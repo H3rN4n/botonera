@@ -7,6 +7,8 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
     link(rel='stylesheet', href='/vendor/bootstrap/dist/css/bootstrap.min.css')
     link(rel='stylesheet', href='/css/styles.min.css')
+    script(type='text/javascript', src='/vendor/lazyload/build/lazyload.min.js')
+
   body
     nav.navabar.navbar-default(role='navigation')
       .container
@@ -15,5 +17,6 @@ html
     .container
       block content
     if settings.env == 'development'
-      script(src='http://localhost:35729/livereload.js')
-    script(src='/js/app.min.js')
+    script(src='http://localhost:35729/livereload.js')
+    script(src='/vendor/jquery/dist/jquery.min.js')
+    script(src='/js/main.js')
