@@ -6,3 +6,6 @@ body {
 embed {
   clear: both;
 }
+div.col-md-3 {
+  text-align: center;
+}
