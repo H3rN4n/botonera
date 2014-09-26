@@ -3,15 +3,3 @@ body {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
-iframe,
-span.title {
-  float: left;
-  clear: both;
-  text-align: center;
-  width: 100%;
-  border: 0px;
-  background-color: white;
-}
-div.col-md-3 {
-  height: 150px;
-}
