@@ -3,3 +3,6 @@ body {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
+div.col-md-3.thumbnail {
+  height: 175px;
+}
